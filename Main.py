@@ -1,3 +1,7 @@
+# Developed Date: 2025/01/04
+# Version: 1.0
+# Author: Joomun Muddathir
+
 from selenium import webdriver
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.common.by import By
@@ -26,6 +30,7 @@ edge_driver_path = r"C:\Users\joomu\Downloads\edgedriver_win64\msedgedriver.exe"
 service = Service(edge_driver_path)
 driver = webdriver.Edge(service=service)
 
+# Open WhatsApp Web
 driver.get("https://web.whatsapp.com")
 print("Please scan the QR code to log in to WhatsApp Web.")
 
