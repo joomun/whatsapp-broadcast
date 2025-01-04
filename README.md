@@ -7,16 +7,16 @@
 ### Usage
 
 1. **Setup**:  
-    Ensure you have met all the prerequisites mentioned above.
+  Ensure you have met all the prerequisites mentioned above.
 
 2. **Configuration**:  
-    Define your message and other configurations in the script.
+  Define your message and other configurations in the script.
 
 3. **Run the Script**:  
-    Execute the script using Python:
-    ```bash
-    python Main.py
-    ```
+  Execute the script using Python:
+  ```bash
+  python Main.py
+  ```
 
 ### Code Overview
 
@@ -44,6 +44,12 @@ message = "Hello! This is a broadcast message."
 - Ensure your browser (Microsoft Edge) is up to date.
 - The script may need adjustments based on changes to the WhatsApp Web interface.
 
+### Contributing
+
+If you would like to contribute to this project, please request contributor access. Once granted, you can update the code and submit pull requests.
+
+### Maintenance
+
+Please note that the script may require updates if the WhatsApp Web interface changes. Ensure to check for any updates to the web interface and adjust the script accordingly.
 
 This project is a Python script to automate sending broadcast messages to all your recent WhatsApp chats using Selenium and a web browser (Microsoft Edge). It iteratively sends a predefined message to each chat and handles scrolling through the chat list to include all chats.
-
